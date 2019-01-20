@@ -17,7 +17,7 @@ void merge(std::vector<T>& data, std::vector<T>& temp, int low, int middle, int 
 		if (temp[i] <= temp[j]) {
 			data[k] = temp[i];
 			i++;
-		}
+		} 
 		else {
 			data[k] = temp[j];
 			j++;
